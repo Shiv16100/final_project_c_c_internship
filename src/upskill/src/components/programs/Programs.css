@@ -1,0 +1,84 @@
+#main-program-div-programs-container-1{
+    width:100%;
+    height: 2220px;
+    font-family: Poppins;
+}
+
+#program-heading-rectangle{
+    width: 96px;
+    height: 17px;
+    background-color: #FFBB0066;
+    position: relative;
+    top:-29px;
+    left:582px
+}
+#nontech-heading-rectangle{
+    width: 183px;
+    height: 17px;
+    background-color: #FFBB0066;
+    position: relative;
+    height: 17px;
+    top:-29px;
+    left:540px;
+}
+#ug-pg-heading-rectangle{
+    width: 310px;
+    height: 17px;
+    background-color: #FFBB0066;
+    position: relative;
+    height: 17px;
+    top: -29px;
+    left:380px;  
+}
+
+#heading-program-101{
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+line-height: 60px;
+color: #202125;
+margin-top: 116px;
+
+}
+#program-card-container{
+    height: 600px;
+    /* margin-left: 104px; */
+    display: flex;
+    /* gap:40px; */
+    width:100%;
+
+}
+@media (min-width:1200px ) and (max-width: 1400px) {
+       
+}
+@media (min-width:1000px ) and (max-width: 1200px) {
+       
+}
+@media (min-width:800px ) and (max-width: 1000px) {
+       
+}
+@media (min-width:600px ) and (max-width: 800px) {
+       
+}
+@media (min-width:400px ) and (max-width: 600px) {
+    #heading-program-101{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 60px;
+        color: #202125;
+        margin-top: 116px;
+        
+        }
+}
+@media (min-width:300px ) and (max-width: 400px) {
+    #heading-program-101{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 60px;
+        color: #202125;
+        margin-top: 116px;
+        
+        }
+} 

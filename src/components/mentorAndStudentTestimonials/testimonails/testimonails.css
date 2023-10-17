@@ -1,0 +1,129 @@
+#testimonails {
+       width: 351px;
+       height: 320px;
+       border-radius: 10px;
+       border: 1px solid #E5E7EB;
+       background: #FFF;
+}
+
+#top_of_testi {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+}
+
+#top_of_testi>img {
+       width: 30px;
+       height: 30px;
+}
+
+#content_testi {
+       margin-top: 25px;
+       width: 291px;
+       color: #2D2E2E;
+       font-family: Poppins;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+}
+
+#img_name {
+       display: flex;
+       justify-content: space-between;
+}
+
+#img_name>img {
+       width: 105px !important;
+       height: 105px !important;
+       transform: translate(-20%, 0);
+}
+
+#name_class {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: left;
+       transform: translate(-20%, 0);
+}
+
+#name_class>h1 {
+       color: #000;
+       font-family: Poppins;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: 22px;
+       /* 88% */
+}
+
+#name_class>h2 {
+       color: #000;
+       font-family: Poppins;
+       font-size: 14px;
+       font-style: normal;
+       font-weight: 300;
+       line-height: 15.5px;
+       /* 110.714% */
+}
+.PD{
+       background-color: transparent;
+}
+@media (min-width:1200px) and (max-width: 1400px) {}
+
+@media (min-width:1000px) and (max-width: 1200px) {}
+
+@media (min-width:800px) and (max-width: 1000px) {
+       #testimonails {
+              width: 300px;
+              height: 320px;
+              border-radius: 10px;
+              border: 1px solid #E5E7EB;
+              background: #FFF;
+       }
+
+       #top_of_testi>img {
+              width: 30px;
+              height: 30px;
+       }
+
+       #content_testi {
+              margin-top: 25px;
+              width: 291px;
+              font-size: 18px;
+       }
+
+       #img_name {
+              display: flex;
+              justify-content: space-between;
+       }
+
+       #img_name>img {
+              width: 105px !important;
+              height: 105px !important;
+              transform: translate(-20%, 0);
+       }
+
+       #name_class {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: left;
+              transform: translate(-20%, 0);
+       }
+
+       #name_class>h1 {
+              font-size: 25px;
+       }
+
+       #name_class>h2 {
+              font-size: 14px;
+       }
+}
+
+@media (min-width:600px) and (max-width: 800px) {}
+
+@media (min-width:400px) and (max-width: 600px) {}
+
+@media (min-width:300px) and (max-width: 400px) {}

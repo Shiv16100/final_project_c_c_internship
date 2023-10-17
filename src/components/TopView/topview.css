@@ -1,0 +1,1187 @@
+#top_main {
+       height: 732px;
+       background: #202125;
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+/* #center{
+       position: relative;
+       width: 90%;
+       height: 90%;
+} */
+
+#learners {
+
+       position: absolute;
+       top: 36px;
+       /* left: 300px; */
+       left: 10%;
+       display: flex;
+       width: 327.353px;
+       height: 140px;
+       border-radius: 20px;
+       border: 2px solid rgba(0, 0, 0, 0.20);
+       background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.30);
+       /* backdrop-filter: blur(2px);  */
+
+
+}
+
+#learners img {
+       width: 100px;
+       height: 100px;
+       margin: 20px;
+}
+
+#learner_text {
+       color: white;
+       margin-top: 20px;
+       margin-left: 20px;
+}
+
+#learner_text h1 {
+       font-size: 40px;
+}
+
+#learner_text span {
+       font-size: 30px;
+       font-style: normal;
+       font-weight: 300;
+}
+
+#vector1 {
+       position: absolute;
+       top: 197px;
+       left: 20%;
+       width: 53.947px;
+       height: 65px;
+}
+
+
+
+#placements {
+
+       position: absolute;
+       top: 511px;
+       left: 66%;
+       display: flex;
+       width: 441px;
+       height: 120px;
+       border-radius: 20px;
+       border: 2px solid rgba(0, 0, 0, 0.20);
+       background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.30);
+       /* backdrop-filter: blur(2px);  */
+
+
+}
+
+#placements img {
+       width: 80px;
+       height: 80px;
+       margin: 20px;
+}
+
+#placements_text {
+       color: white;
+       margin-top: 20px;
+       margin-left: 20px;
+}
+
+#placements_text h1 {
+       font-size: 35px;
+       font-style: normal;
+       font-weight: 700;
+}
+
+#placements_text span {
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 300;
+}
+
+#vector2 {
+       position: absolute;
+       top: 471px;
+       left: 61%;
+       width: 53.947px;
+       height: 65px;
+}
+
+
+
+
+#programs_KS {
+
+       position: absolute;
+       top: 76px;
+       left: 74%;
+       display: flex;
+       width: 234px;
+       height: 100px;
+       border-radius: 20px;
+       border: 2px solid rgba(0, 0, 0, 0.20);
+       background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.30);
+       /* backdrop-filter: blur(2px);  */
+
+
+}
+
+#programs_KS img {
+       width: 60px;
+       height: 60px;
+       margin: 20px;
+}
+
+#programs_text {
+       color: white;
+       margin-top: 18px;
+       margin-left: 10px;
+       line-height: 137.523%;
+}
+
+#programs_text h1 {
+       font-size: 30px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 137.523%;
+}
+
+#programs_text span {
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 300;
+}
+
+#vector3 {
+       position: absolute;
+       top: 119.78px;
+       left: 70%;
+       width: 53.947px;
+       height: 65px;
+}
+
+#topview_content {
+       position: absolute;
+       top: 223px;
+       left: 26%;
+       width: 60%;
+       height: 45%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+}
+
+#topview_content h1 {
+       font-size: 80px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: normal;
+       color: white;
+
+}
+
+#topview_content h1 span {
+
+       color: #FFB000;
+       font-family: Poppins;
+       font-size: 80px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: normal;
+       border: 2px solid #FFB000;
+       /* border-radius: 70%; */
+       border-radius: 50%;
+       padding: 10px 30px;
+       /* width: 200px;   
+       height: 280px; 
+       border-bottom-left-radius: 50% 25%;
+       border-bottom-right-radius: 50% 25%;
+       border-top-left-radius: 50% 25%;
+       border-top-right-radius: 50% 25%; */
+}
+
+#topview_content h2 {
+       color: white;
+       font-size: 28px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 137.523%;
+       /* 38.506px */
+}
+
+#topview_btn button {
+       width: 216px;
+       height: 74px;       cursor: pointer;
+}
+
+#topview_started {
+       border: none;
+       border-radius: 10px;
+       background: #FFB000;
+       color: white;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 137.523%;
+       margin-right: 30px;
+}
+
+#topview_explore {
+       border-radius: 10px;
+       border: 1.5px solid #FFB000;
+       background: none;
+       color: #FFB000;
+       font-size: 25px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 137.523%;
+       /* 34.381px */
+
+}
+
+#hiring_partners {
+       /* width: 245px;
+       height: 50px; */
+       /* display: flex;
+        */
+       display: inline-block;
+       position: absolute;
+       top: 702px;
+       left: 50%;
+       /* transition: translate(-50%,0); */
+       transform: translate(-50%, 0);
+       padding: 10px 20px;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       border-radius: 10px;
+       background: #FFB000;
+}
+
+#hiring_partners h1 {
+
+       color: white;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: normal;
+}
+
+
+
+@media (min-width: 1450px) and (max-width: 1570px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 70px;
+       }
+}
+
+
+@media (min-width:1300px) and (max-width: 1400px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 60px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 60px;
+       }
+
+       #topview_content>h2 {
+              font-size: 25px;
+       }
+
+       #placements {
+              width: 400px;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+}
+
+@media (min-width:1200px) and (max-width: 1300px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 60px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 60px;
+       }
+
+       #topview_content>h2 {
+              font-size: 25px;
+       }
+
+       #placements {
+              width: 400px;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 216px;
+              height: 74px;
+       }
+}
+
+@media (min-width:1100px) and (max-width: 1200px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+
+       }
+
+       #topview_content {
+              left: 21%;
+       }
+
+       #topview_content>h1 {
+              font-size: 50px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 50px;
+       }
+
+       #topview_content>h2 {
+              font-size: 22px;
+       }
+
+       #vector2 {
+              left: 58%;
+       }
+
+       #placements {
+              width: 400px;
+              left: 62%;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 180px;
+              height: 70px;
+       }
+
+}
+
+@media (min-width:1000px) and (max-width: 1100px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 14%;
+
+       }
+
+       #topview_content {
+              left: 19%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 40px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 40px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 45%;
+       }
+
+       #placements {
+              width: 400px;
+              left: 50%;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 180px;
+              height: 70px;
+       }
+}
+
+@media (min-width:900px) and (max-width: 1000px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 7%;
+
+       }
+
+       #topview_content {
+              left: 19%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 40px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 40px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 45%;
+       }
+
+       #placements {
+              width: 400px;
+              left: 50%;
+       }
+
+       #placements_text>h1 {
+              font-size: 30px;
+       }
+
+       #placements_text>span {
+              font-size: 22px;
+       }
+
+       #placements>img {
+              width: 70px;
+       }
+
+       #learners {
+              width: 315px;
+       }
+
+       #learner_text>h1 {
+              font-size: 35px;
+       }
+
+       #learner_text>span {
+              font-size: 27px;
+       }
+
+       #learners>img {
+              width: 90px;
+       }
+
+       #topview_btn button {
+              width: 180px;
+              height: 70px;
+       }
+
+       #vector3 {
+              left: 67%;
+       }
+
+}
+
+@media (min-width:800px) and (max-width: 900px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 7%;
+
+       }
+
+       #topview_content {
+              left: 19%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 35px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 35px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 45%;
+       }
+
+       #placements {
+              width: 360px;
+              left: 50%;
+       }
+
+       #placements_text>h1 {
+              font-size: 25px;
+       }
+
+       #placements_text>span {
+              font-size: 20px;
+       }
+
+       #placements>img {
+              width: 50px;
+       }
+
+       #learners {
+              width: 250px;
+              height: 120px;
+       }
+
+       #learner_text>h1 {
+              font-size: 25px;
+       }
+
+       #learner_text>span {
+              font-size: 25px;
+       }
+
+       #learners>img {
+              width: 50px;
+              margin-top: 10px;
+       }
+
+       #topview_btn button {
+              width: 150px;
+              height: 50px;
+              font-size: 20px;
+       }
+
+       #vector3 {
+              left: 57%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 64%;
+              width: 234px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 50px;
+              height: 50px;
+              margin: 25px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 30px;
+       }
+
+       #programs_text span {
+              font-size: 20px;
+       }
+
+}
+
+@media (min-width:700px) and (max-width: 800px) {
+       #learners {
+              left: 6%;
+       }
+
+       #vector1 {
+              left: 7%;
+
+       }
+
+       #topview_content {
+              left: 15%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 33px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 33px;
+       }
+
+       #topview_content>h2 {
+              font-size: 19px;
+       }
+
+       #vector2 {
+              left: 25%;
+       }
+
+       #placements {
+              width: 360px;
+              left: 32%;
+       }
+
+       #placements_text>h1 {
+              font-size: 25px;
+       }
+
+       #placements_text>span {
+              font-size: 20px;
+       }
+
+       #placements>img {
+              width: 50px;
+       }
+
+       #learners {
+              width: 250px;
+              height: 120px;
+       }
+
+       #learner_text>h1 {
+              font-size: 25px;
+       }
+
+       #learner_text>span {
+              font-size: 25px;
+       }
+
+       #learners>img {
+              width: 50px;
+              margin-top: 10px;
+       }
+
+       #topview_btn button {
+              width: 150px;
+              height: 50px;
+              font-size: 20px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 234px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 50px;
+              height: 50px;
+              margin: 25px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 30px;
+       }
+
+       #programs_text span {
+              font-size: 20px;
+       }
+}
+
+@media (min-width:600px) and (max-width: 700px) {
+       #hiring_partners h1 {
+              font-size: 14px;
+       }
+       #learners {
+              left: 2%;
+       }
+
+       #vector1 {
+              left: 3%;
+
+       }
+
+       #topview_content {
+              left: 15%;
+              height: 30%;
+       }
+
+       #topview_content>h1 {
+              font-size: 25px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 25px;
+       }
+
+       #topview_content>h2 {
+              font-size: 14px;
+       }
+
+       #vector2 {
+              left: 25%;
+       }
+
+       #placements {
+              width: 320px;
+              height: 100px;
+              left: 32%;
+       }
+
+       #placements_text>h1 {
+              font-size: 25px;
+       }
+
+       #placements_text>span {
+              font-size: 20px;
+       }
+
+       #placements>img {
+              width: 40px;
+              margin-top: 10px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #learners {
+              width: 180px;
+              height: 100px;
+       }
+
+       #learner_text>h1 {
+              font-size: 20px;
+       }
+
+       #learner_text>span {
+              font-size: 20px;
+       }
+
+       #learners>img {
+              width: 40px;
+              margin-top: 0;
+              margin-right: -7px;
+              margin-bottom: 50px;
+       }
+
+       #topview_btn button {
+              width: 150px;
+              height: 50px;
+              font-size: 20px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 180px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 40px;
+              margin-top: 18px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 30px;
+       }
+
+       #programs_text span {
+              font-size: 20px;
+       }
+}
+
+@media (min-width:400px) and (max-width: 600px) {
+       #hiring_partners h1 {
+              font-size: 14px;
+       }
+       #learners {
+              left: 2%;
+       }
+
+       #vector1 {
+              left: 3%;
+
+       }
+
+       #topview_content {
+              left: 12.5%;
+              height: 25%;
+              width: 90%;
+       }
+
+       #topview_content>h1 {
+              font-size: 20px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 20px;
+       }
+
+       #topview_content>h2 {
+              font-size: 12px;
+       }
+
+       #vector2 {
+              left: 5%;
+       }
+
+       #placements {
+              width: 250px;
+              height: 100px;
+              left: 15%;
+       }
+
+       #placements_text>h1 {
+              font-size: 20px;
+       }
+
+       #placements_text>span {
+              font-size: 15px;
+       }
+
+       #placements>img {
+              width: 40px;
+              margin-top: 10px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #learners {
+              width: 160px;
+              height: 100px;
+       }
+
+       #learner_text>h1 {
+              font-size: 20px;
+       }
+
+       #learner_text>span {
+              font-size: 15px;
+       }
+
+       #learners>img {
+              width: 40px;
+              margin-top: 0;
+              margin-right: -7px;
+              margin-bottom: 50px;
+       }
+
+       #topview_btn button {
+              width: 120px;
+              height: 40px;
+              font-size: 15px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 150px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 40px;
+              margin-top: 18px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 20px;
+       }
+
+       #programs_text span {
+              font-size: 15px;
+       }
+}
+
+@media (min-width:300px) and (max-width: 400px) {
+       #learners {
+              left: 2%;
+       }
+
+       #vector1 {
+              left: 3%;
+
+       }
+
+       #topview_content {
+              left: 12.5%;
+              height: 25%;
+              width: 90%;
+       }
+
+       #topview_content>h1 {
+              font-size: 20px;
+       }
+
+       #topview_content>h1>span {
+              font-size: 20px;
+       }
+
+       #topview_content>h2 {
+              font-size: 12px;
+       }
+
+       #vector2 {
+              left: 5%;
+       }
+
+       #placements {
+              width: 250px;
+              height: 100px;
+              left: 15%;
+       }
+
+       #placements_text>h1 {
+              font-size: 20px;
+       }
+
+       #placements_text>span {
+              font-size: 15px;
+       }
+
+       #placements>img {
+              width: 40px;
+              margin-top: 10px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #learners {
+              width: 160px;
+              height: 100px;
+       }
+
+       #learner_text>h1 {
+              font-size: 20px;
+       }
+
+       #learner_text>span {
+              font-size: 15px;
+       }
+
+       #learners>img {
+              width: 40px;
+              margin-top: 0;
+              margin-right: -7px;
+              margin-bottom: 50px;
+       }
+
+       #topview_btn button {
+              width: 120px;
+              height: 40px;
+              font-size: 15px;
+       }
+
+       #vector3 {
+              left: 47%;
+       }
+
+       #programs_KS {
+              top: 76px;
+              left: 56%;
+              width: 150px;
+              height: 100px;
+
+
+       }
+
+       #programs_KS img {
+              width: 40px;
+              margin-top: 18px;
+              margin-right: -7px;
+              margin-bottom: 20px;
+       }
+
+       #programs_text {
+              margin-top: 18px;
+              margin-left: 10px;
+       }
+
+       #programs_text h1 {
+              font-size: 20px;
+       }
+
+       #programs_text span {
+              font-size: 15px;
+       }
+
+       #hiring_partners h1 {
+              font-size: 13px;
+       }
+}
