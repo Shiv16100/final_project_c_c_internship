@@ -22,7 +22,7 @@
 #main_programsDetails h1 {
        color: #FFF;
        font-size: 30px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 600;
 
 }
@@ -30,7 +30,7 @@
 #main_programsDetails h2 {
        color: #FFF;
        font-size: 20px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 400;
 }
 
@@ -44,7 +44,7 @@
        background: #33475B;
        color: #FFF;
        font-size: 24px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 600;
 }
 

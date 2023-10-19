@@ -17,6 +17,8 @@
   gap: 12px;
   padding-left: 30px;
   padding-top: 30px;
+  justify-content: space-between;
+  padding-right: 30px;
 }
 .info-buttons-place-abt-us {
   width: 100px;

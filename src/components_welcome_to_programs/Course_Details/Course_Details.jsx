@@ -2,6 +2,8 @@ import React from 'react'
 import './course_Details.css'
 import Rating from "./Rating/rating.js";
 const Course_Details = () => {
+       const windth=window.width;
+       console.log(windth)
        return (
               <div>
                      <div className="main_course_Details">

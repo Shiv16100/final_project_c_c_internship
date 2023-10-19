@@ -8,7 +8,7 @@ const Contact_us_page = () => {
     <div>
          <Topview/>
          <GetInTouch/>
-         <CourseFindingSection/>
+         {/* <CourseFindingSection/> */}
          <Testimonial/>
          
     </div>

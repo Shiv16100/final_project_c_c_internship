@@ -48,7 +48,7 @@
 
 #learner_text span {
        font-size: 30px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 300;
 }
 
@@ -188,7 +188,7 @@
        color: #FFB000;
        font-family: Poppins;
        font-size: 80px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 600;
        line-height: normal;
        border: 2px solid #FFB000;
@@ -206,7 +206,7 @@
 #topview_content h2 {
        color: white;
        font-size: 28px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 400;
        line-height: 137.523%;
        /* 38.506px */
@@ -235,7 +235,7 @@
        background: none;
        color: #FFB000;
        font-size: 25px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 500;
        line-height: 137.523%;
        /* 34.381px */
@@ -265,7 +265,7 @@
 
        color: white;
        font-size: 20px;
-       font-style: normal;
+       /* font-style: normal; */
        font-weight: 700;
        line-height: normal;
 }
@@ -1076,37 +1076,41 @@
 
        #vector1 {
               left: 3%;
+              top: 147px;
 
        }
 
        #topview_content {
-              left: 12.5%;
+              left: 4.5%;
               height: 25%;
-              width: 90%;
+              width: 95%;
        }
 
        #topview_content>h1 {
-              font-size: 20px;
+              font-size: 25px;
        }
 
        #topview_content>h1>span {
-              font-size: 20px;
+              font-size: 25px;
        }
 
        #topview_content>h2 {
-              font-size: 12px;
+              font-size: 15px;
        }
 
        #vector2 {
-              left: 5%;
+              left: 4%;
        }
 
        #placements {
               width: 250px;
-              height: 100px;
+              height: 80px;
               left: 15%;
+              border-radius: 15px;
        }
-
+       #placements_text{
+              margin-top: 10px;
+       }
        #placements_text>h1 {
               font-size: 20px;
        }
@@ -1117,14 +1121,18 @@
 
        #placements>img {
               width: 40px;
-              margin-top: 10px;
+              margin-top: -0px;
               margin-right: -7px;
               margin-bottom: 20px;
        }
 
        #learners {
               width: 160px;
-              height: 100px;
+              height: 80px;
+              border-radius: 15px;
+       }
+       #learner_text{
+              margin-top: 11px;
        }
 
        #learner_text>h1 {
@@ -1137,9 +1145,9 @@
 
        #learners>img {
               width: 40px;
-              margin-top: 0;
+              margin-top: -10px;
               margin-right: -7px;
-              margin-bottom: 50px;
+              margin-bottom: 80px;
        }
 
        #topview_btn button {
@@ -1149,27 +1157,30 @@
        }
 
        #vector3 {
-              left: 47%;
+              left: 40%;
        }
 
        #programs_KS {
               top: 76px;
               left: 56%;
               width: 150px;
-              height: 100px;
+              height: 80px;
+              border-radius: 15px;
+
 
 
        }
 
        #programs_KS img {
               width: 40px;
-              margin-top: 18px;
-              margin-right: -7px;
+              margin-top: 10px;
+              margin-right: 0px;
               margin-bottom: 20px;
+              margin-left: 20px;
        }
 
        #programs_text {
-              margin-top: 18px;
+              margin-top: 13px;
               margin-left: 10px;
        }
 

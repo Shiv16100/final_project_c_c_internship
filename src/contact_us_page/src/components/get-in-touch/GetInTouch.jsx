@@ -36,6 +36,7 @@ const GetInTouch = () => {
         </div>
       </div>
       <div id="second-div">
+        <h2>Let Career Corps help you find the Right Course and Right Job for you!</h2>
         <form>
           <div>
             <label htmlFor="name">Name</label>
